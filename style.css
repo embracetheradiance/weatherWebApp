@@ -1,0 +1,163 @@
+/* .name h1{
+    text-align: center;
+    font-size: 50px;
+} */
+.list{
+    width: 1200px;
+    height: 818.5px;
+}
+.temp img{
+    width:120px; 
+    height:120px;
+}
+.temp p{
+    align-self:center;
+    font-size: 40px
+}
+.desc{
+    position: absolute;
+    right: 23%;
+    float: right;
+}
+.desc2{
+    float: left;
+    position: absolute;
+    left: 19.8%;
+}
+.desc2 b{
+    font-size:30px;
+    color:white;
+    opacity:.8
+}
+.ddate b{
+    font-size:30px;
+    color:white;
+    opacity:1
+}
+.ddate p{
+    font-size:30px;
+    color:white;
+    opacity:.8
+}
+.date b{
+    font-size:25px;
+    color:white;
+    opacity:1
+}
+@media (min-width: 1200px){
+    .descbb{
+        display: none;
+    }
+    .marginn{
+        margin-bottom: 7.5%;
+    }
+    .phoneweek{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+    .name h1{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .list{
+        width: 350px;
+        height: 788px;
+    }
+    .temp img{
+        width: 120px;
+        height: 120px;
+        align-self: center;
+    }
+    .temp{
+        flex-direction: column;
+    }
+    .temp p{
+        font-size: 40px;
+        margin: 0px;
+    }
+    .datee{
+        display: none;
+    }
+    .desc{
+        display: flex;
+        justify-content: center;
+        float: none;
+        position: relative;
+        right: 0%;
+        
+    }
+    .desc b{
+        font-weight: normal;
+    }
+    .desc2 b{
+        font-weight: normal;
+        text-align: center;
+        font-size: 29px;
+    }
+    .desc2{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        left: 0%;
+        float: none;
+        position: relative;
+    }
+    .descb{
+        display: none;
+    }
+    .descbb{
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+    .wtime{
+        width: 350px;
+        overflow: hidden;
+    }
+    .ddate b{
+        font-size:25px;
+        color:white;
+        opacity:1
+    }
+    .ddate p{
+        font-size:25px;
+        color:white;
+        opacity:.8
+    }
+    .mm{
+        display: flex;
+        display: none;
+    }
+    .date{
+        flex-direction: column;
+    }
+    .date b{
+        height: 50px;
+    }
+    /* #maxx1{
+        display: none;
+    } */
+    #maxx{
+        display: none;
+    }
+    #minn{
+        display: none;
+    }
+    .max{
+        flex-direction: column;
+    }
+    .min{
+        flex-direction: column;
+    }
+    /* .desc2{
+        display: flex;
+    } */
+}

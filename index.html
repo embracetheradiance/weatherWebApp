@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        body{
+            background-image: url('https://images.wallpaperscraft.com/image/forest_trees_fog_110131_1920x1080.jpg');
+            
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <b style="color: white;font-size: 70px;margin-bottom: 5px;">Погода</b>
+    </div>
+    <div style="display: flex;justify-content: center;">
+        <div class="list" style="border-radius: 15px;background-color: rgba(0, 0, 0, 0.3);color: white;">
+            <div class="name"></div>
+            <div class="temp" style="display: flex;">
+                <!-- <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="" width="120px" height="120px"> -->
+            </div>
+            <div class='marginn'>
+                <div class="desc" style="text-transform:capitalize;">
+                
+                </div>
+                <div class="desc2">
+
+                </div>
+            </div>
+                <br> <!-- <br><br><br><br><br><br> -->
+            <div class="wtime">
+                <div class="ddate" style="display: flex;justify-content: space-around;">
+                    <div class="six" style="display: flex;flex-direction: column;">
+                    </div>
+                    <div class="nine" style="display: flex;flex-direction: column;">
+                    </div>
+                    <div class="twelve" style="display: flex;flex-direction: column;">
+                    </div>
+                    <div class="three" style="display: flex;flex-direction: column;">
+                    </div>
+                    <div class="sixpm" style="display: flex;flex-direction: column;">
+                    </div>
+                    <div class="ninepm" style="display: flex;flex-direction: column;">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="mm" >
+                <div class="date" style="display: flex; justify-content: space-around;">
+                    <b id="maxx1"  style='font-size:30px;color:white;opacity:0'>Максимум &nbsp; &nbsp;</b>
+                </div> 
+                <br><br>
+                <div class="max" style="display: flex; justify-content: space-around;">
+                    <b id="maxx" style='font-size:30px;color:white;opacity:1'>Максимум</b>
+                </div>
+                <br><br><br><br>
+
+                <div class="min" style="display: flex; justify-content: space-around;">
+                    <b id="minn" style='font-size:30px;color:white;opacity:1'>Минимум &nbsp;</b>
+                    
+                </div>
+            </div>
+           <div class="phoneweek">
+                <!-- <div class="mon" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;">
+
+                </div> -->
+                <div class="tue" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;"></div>
+                <div class="wed" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;"></div>
+                <div class="thu" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;"></div>
+                <div class="fri" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;"></div>
+                <!-- <div class="sat" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;"></div>
+                <div class="sun" style="display: flex;justify-content:space-between;margin: 0 5px;height: 40px;"></div> -->
+           </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
